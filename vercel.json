@@ -9,13 +9,7 @@
     "routes": [
         {
         "src": "/(.*)",
-        "dest": "index.js"
+        "dest": "/"
       }
-    ],
-    "rewrites": [
-        { 
-            "src": "/(.*)",
-            "dest": "/" 
-        }
     ]
 }
